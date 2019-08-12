@@ -1,3 +1,4 @@
+LABEL maintainer="azucena.rosales@gmail.com"
 FROM node:10.16.2-alpine
 RUN npm install -g create-react-app \
                    create-react-native-app \
