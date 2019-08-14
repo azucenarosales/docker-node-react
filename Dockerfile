@@ -7,4 +7,3 @@ RUN mkdir -p /var/www/sites
 WORKDIR /var/www/sites
 ADD . /var/www/sites
 CMD ["/bin/sh"]
-#ENTRYPOINT ["/bin/sh"]
